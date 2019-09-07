@@ -5,26 +5,23 @@ using System.Text;
 
 namespace Legos.Minifigures.Parts
 {
-    class PirateTorso
+    class PirateTorso : Torso
     {
-        public string Shirt { get; set; }
-        public int NumberOfArms { get; set; }
-        public HandType HandType { get; set; }
-        public bool ChestHair => true;
+        public override bool ChestHair => true;
 
-        public PirateTorso(HandType HandType)
+        public PirateTorso(HandType handType)
         {
             HandType = HandType;
             Shirt = "Froofy with ruffles";
         }
 
-        public void Flex()
+        public override void Flex()
         {
             Console.WriteLine("The pirate torse flexed swashbuckingly.");
             
         }
 
-        public void Fight()
+        public override void Fight()
         {
             Console.WriteLine("The pirate torse flexed swashbuckingly.");
 

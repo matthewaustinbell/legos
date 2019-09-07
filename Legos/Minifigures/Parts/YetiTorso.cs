@@ -4,10 +4,10 @@ using System.Text;
 
 namespace Legos.Minifigures.Parts
 {
-    class YetiTorso
+    class YetiTorso : Torso
     {
         public override bool ChestHair => true;
-        
+
         public YetiTorso()
         {
             HandType = HandType.None;
@@ -15,12 +15,12 @@ namespace Legos.Minifigures.Parts
             NumberOfArms = 2;
         }
 
-        public void Flex()
+        public override void Flex()
         {
             Console.WriteLine("The Yeti torso flexes menacingly with no hands ");
         }
 
-        public void Fight()
+        public override void Fight()
         {
             Console.WriteLine("The Yeti torso smacks you with nubs...");
         }
