@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Legos", "Legos\Legos.csproj", "{CD87BAEF-FE4F-4312-AAEE-C0788AB0AF72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD87BAEF-FE4F-4312-AAEE-C0788AB0AF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD87BAEF-FE4F-4312-AAEE-C0788AB0AF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD87BAEF-FE4F-4312-AAEE-C0788AB0AF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD87BAEF-FE4F-4312-AAEE-C0788AB0AF72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA04454F-69FC-4B75-97D1-78F86B1A39BB}
+	EndGlobalSection
+EndGlobal
